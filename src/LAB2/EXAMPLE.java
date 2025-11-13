@@ -1,10 +1,12 @@
-public class Example1 {
+package LAB2;
+
+public class EXAMPLE {
     public static void main(String[] args) {
         int age = 20;
         double price = 19.99;
         char grade = 'A';
         boolean isStudent = true;
-        String name = "Badar";
+        String name = "Badar Miqdad";
 
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);

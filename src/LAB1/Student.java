@@ -1,4 +1,4 @@
-package LAB1; //from the folder that you created your java file
+
 
 // This program prints personal student information
 public class Student {
