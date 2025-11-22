@@ -16,6 +16,12 @@ public class Q2_PasswordValidation {
         }
         
         System.out.println();
+        // Accept second string
+        System.out.print("Enter second string: ");
+        String secondString = input.nextLine();
+        
+        // Transform second string to uppercase
+        String upperSecondString = secondString.toUpperCase();
 
         
     }
