@@ -30,5 +30,11 @@ public class Q1_StringManipulation {
             String newFirstString = firstString.replace(secondString, "-replaced-");
             System.out.println("New first String : " + newFirstString);
         } 
+        else {
+            System.out.println("Second String does not exist in First String");
+        }
+        
+        input.close();
+
     }
 }
