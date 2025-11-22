@@ -23,6 +23,13 @@ public class Q2_PasswordValidation {
         // Transform second string to uppercase
         String upperSecondString = secondString.toUpperCase();
 
+        // Combine strings with space separator
+        String newString = upperSecondString + " " + firstString;
         
+        System.out.println();
+        System.out.println("New string : " + newString);
+        
+        input.close();
+
     }
 }
