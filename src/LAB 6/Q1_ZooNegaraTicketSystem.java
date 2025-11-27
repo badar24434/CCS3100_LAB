@@ -88,17 +88,7 @@ public class Q1_ZooNegaraTicketSystem {
                     }
                 }
                 
-                // Calculate total for current ticket purchase
-                ticketTotal = ticketPrice * numTickets;
-                receiptTotal += ticketTotal;
-                
-                // Display ticket total
-                System.out.printf("Total is RM %.2f\n", ticketTotal);
-                
-                // Ask if user wants to buy more tickets
-                System.out.print("\nBuy more ticket (Y/N)?: ");
-                continueTicket = scanner.next().charAt(0);
-                System.out.println();
+            
                 
             } while (continueTicket == 'Y' || continueTicket == 'y');
             
