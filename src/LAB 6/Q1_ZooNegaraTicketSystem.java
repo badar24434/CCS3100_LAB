@@ -1,16 +1,4 @@
-/*
- * Matric Number: [Your Matric Number]
- * Name: [Your Name]
- * Program: [Your Program]
- * Lab Assignment: Lab 6 - Loop Statements
- * Question 1: Zoo Negara Entrance Ticket Payment System
- * 
- * Description:
- * This program calculates entrance fees for visitors to Zoo Negara.
- * It allows staff to process multiple tickets per receipt and multiple receipts.
- * Pricing varies based on nationality (Malaysian/Foreigner), 
- * foreigner classification (I-Kad/ASEAN/Others), and visitor category (Adult/Child/Senior).
- */
+
 
 import java.util.Scanner;
 
