@@ -1,5 +1,7 @@
 
-
+// MUHAMAD BADAR MIQDAD BIN MD NASIR
+// MATRIC NO: 215625
+// LAB 6
 import java.util.Scanner;
 
 public class Q1_ZooNegaraTicketSystem {
