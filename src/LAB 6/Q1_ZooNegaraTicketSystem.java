@@ -56,37 +56,7 @@ public class Q1_ZooNegaraTicketSystem {
                     } else if (category == 'S' || category == 's') {
                         ticketPrice = 21.00;
                     }
-                } else if (nationality == 'F' || nationality == 'f') {
-                    // Foreigner pricing
-                    if (classification == 'I' || classification == 'i') {
-                        // I-Kad/Working Permit/Dependent Pass
-                        if (category == 'A' || category == 'a') {
-                            ticketPrice = 50.00;
-                        } else if (category == 'C' || category == 'c') {
-                            ticketPrice = 25.00;
-                        } else if (category == 'S' || category == 's') {
-                            ticketPrice = 50.00;
-                        }
-                    } else if (classification == 'E' || classification == 'e') {
-                        // ASEAN
-                        if (category == 'A' || category == 'a') {
-                            ticketPrice = 61.00;
-                        } else if (category == 'C' || category == 'c') {
-                            ticketPrice = 33.00;
-                        } else if (category == 'S' || category == 's') {
-                            ticketPrice = 61.00;
-                        }
-                    } else if (classification == 'O' || classification == 'o') {
-                        // Others
-                        if (category == 'A' || category == 'a') {
-                            ticketPrice = 82.00;
-                        } else if (category == 'C' || category == 'c') {
-                            ticketPrice = 43.00;
-                        } else if (category == 'S' || category == 's') {
-                            ticketPrice = 82.00;
-                        }
-                    }
-                }
+                } 
                 
                 // Calculate total for current ticket purchase
                 ticketTotal = ticketPrice * numTickets;
