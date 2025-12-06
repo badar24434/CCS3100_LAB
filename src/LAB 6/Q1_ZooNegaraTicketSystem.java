@@ -27,14 +27,7 @@ public class Q1_ZooNegaraTicketSystem {
                 System.out.print("Enter nationality: ");
                 nationality = scanner.next().charAt(0);
                 
-                // Initialize classification
-                classification = ' ';
                 
-                // If foreigner, get classification
-                if (nationality == 'F' || nationality == 'f') {
-                    System.out.print("Enter classification\n(I- Kad/Working Permit/Dependent Pass, E- Asean, O- Others): ");
-                    classification = scanner.next().charAt(0);
-                }
                 
                 // Get visitor category
                 System.out.print("Choose category of visitor\n(A- Adult, C - Children, S - Senior): ");
