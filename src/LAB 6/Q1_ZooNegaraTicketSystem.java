@@ -7,7 +7,14 @@ import java.util.Scanner;
 public class Q1_ZooNegaraTicketSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-       
+        
+        // Variables declaration
+        char nationality, classification, category;
+        char continueTicket, continueVisitor;
+        int numTickets;
+        double ticketPrice, ticketTotal, receiptTotal;
+        
+        System.out.println("ZOO NEGARA ENTRANCE TICKET PAYMENT SYSTEM\n");
         
         // Outer loop - Process multiple visitors
         do {
