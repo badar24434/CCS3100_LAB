@@ -16,7 +16,10 @@ public class Q1_StringManipulation {
             System.out.println("String length less than 10");
         }
         
-        
+        System.out.println();
+        // Accept second string
+        System.out.print("Enter second String : ");
+        String secondString = input.nextLine();
         
         // Check if second string exists in first string
         if (firstString.indexOf(secondString) != -1) {
