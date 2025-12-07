@@ -94,5 +94,16 @@ public class Q1 {
         double weightedLab = labAssignment * 0.35;
         double weightedFinal = finalExam * 0.30;
 
-    
+        //calculate total mark
+        double totalmark = weightedAssessment1 + weightedAssessment2 + weightedLab + weightedFinal;
+
+        //display results
+        System.out.println("\n--- CSC3100 Course Grade Calculation ---");
+        System.out.println("Matric Number: " + matricNumber);
+        System.out.printf("Assessment 1 (15%%): %.2f\n", weightedAssessment1);
+        System.out.printf("Assessment 2 (20%%): %.2f\n", weightedAssessment2);
+        System.out.printf("Lab Assignment (35%%): %.2f\n", weightedLab);
+        System.out.printf("Final Exam (30%%): %.2f\n", weightedFinal);
+        System.out.printf("Total Mark: %.2f\n", totalmark);
+    }
 }
