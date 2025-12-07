@@ -8,7 +8,12 @@ public class Q2_PasswordValidation {
         System.out.print("Enter first string: ");
         String firstString = input.nextLine();
         
-       
+        // Check if length exceeds 8
+        if (firstString.length() > 8) {
+            System.out.println("Valid password");
+        } else {
+            System.out.println("Invalid password");
+        }
         
         System.out.println();
         // Accept second string
