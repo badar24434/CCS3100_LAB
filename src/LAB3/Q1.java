@@ -75,25 +75,7 @@ public class Q1 {
         String matricNumber = input.nextLine();
 
 
-        //input marks for each assessment component
-        System.out.print("Enter Assessment 1 Mark (out of 100): ");
-        double assessment1 = input.nextDouble();
-
-        System.out.print("Enter Assessment 2 Mark (out of 100): ");
-        double assessment2 = input.nextDouble();
-
-        System.out.print("Enter Lab Assignment Mark (out of 100): ");
-        double labAssignment = input.nextDouble();
-
-        System.out.print("Enter Final Exam Mark (out of 100): ");
-        double finalExam = input.nextDouble();
-
-        // calculate weighted marks
-        double weightedAssessment1 = assessment1 * 0.15;
-        double weightedAssessment2 = assessment2 * 0.20;
-        double weightedLab = labAssignment * 0.35;
-        double weightedFinal = finalExam * 0.30;
-
+        
         //calculate total mark
         double totalmark = weightedAssessment1 + weightedAssessment2 + weightedLab + weightedFinal;
 
