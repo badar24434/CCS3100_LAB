@@ -57,29 +57,7 @@ import java.util.Scanner;
 
 public class Q1_MahkotaThemePark_IfElseOnly {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        
-        // Display welcome message
-        System.out.println("╔═══════════════════════════════════════════════╗");
-        System.out.println("║   MAHKOTA THEME PARK TICKET SYSTEM           ║");
-        System.out.println("║   (Using If-Else Only - Alternative Version) ║");
-        System.out.println("╚═══════════════════════════════════════════════╝");
-        System.out.println();
-        
-        // Input age
-        System.out.print("Enter visitor's age: ");
-        int age = input.nextInt();
-        input.nextLine(); // Consume newline
-        
-        // Display park options
-        System.out.println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-        System.out.println("Park Type Options:");
-        System.out.println("  1. ThemePark");
-        System.out.println("  2. WaterPark");
-        System.out.println("  3. Both");
-        System.out.println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-        System.out.print("Enter park type (ThemePark/WaterPark/Both): ");
-        String parkType = input.nextLine().trim();
+       
         
         // Validate park type input
         if (!parkType.equalsIgnoreCase("ThemePark") && 
