@@ -105,18 +105,7 @@ public class Q1_MahkotaThemePark_IfElseOnly {
                 charge = 5;
             }
         } 
-        // Age category: 3-12
-        else if (age >= 3 && age <= 12) {
-            ageCategory = "3-12 years";
-            
-            if (parkType.equalsIgnoreCase("ThemePark")) {
-                charge = 10;
-            } else if (parkType.equalsIgnoreCase("WaterPark")) {
-                charge = 15;
-            } else if (parkType.equalsIgnoreCase("Both")) {
-                charge = 20;
-            }
-        } 
+       
         // Age category: 13-20
         else if (age >= 13 && age <= 20) {
             ageCategory = "13-20 years";
