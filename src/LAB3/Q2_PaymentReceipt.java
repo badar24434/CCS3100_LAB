@@ -94,16 +94,7 @@ public class Q2_PaymentReceipt {
         
         // Clear buffer
         input.nextLine();
-        
-        // Input for Item 2
-        System.out.print("Item 2:");
-        String item2Name = input.nextLine();
-        
-        System.out.print("Quantity:");
-        int quantity2 = input.nextInt();
-        
-        System.out.print("Unit Price:RM");
-        double unitPrice2 = input.nextDouble();
+       
         
         // Calculate amounts
         double amount1 = quantity1 * unitPrice1;
