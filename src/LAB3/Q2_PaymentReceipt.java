@@ -82,19 +82,7 @@ public class Q2_PaymentReceipt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        // Input for Item 1
-        System.out.print("Item 1:");
-        String item1Name = input.nextLine();
-        
-        System.out.print("Quantity:");
-        int quantity1 = input.nextInt();
-        
-        System.out.print("Unit Price:RM");
-        double unitPrice1 = input.nextDouble();
-        
-        // Clear buffer
-        input.nextLine();
-        
+       
         // Input for Item 2
         System.out.print("Item 2:");
         String item2Name = input.nextLine();
