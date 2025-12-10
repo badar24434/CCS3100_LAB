@@ -88,7 +88,14 @@ public class Q1 {
         System.out.print("Enter Final Exam Mark (out of 100): ");
         double finalExam = input.nextDouble();
 
-       
+        // calculate weighted marks
+        double weightedAssessment1 = assessment1 * 0.15;
+        double weightedAssessment2 = assessment2 * 0.20;
+        double weightedLab = labAssignment * 0.35;
+        double weightedFinal = finalExam * 0.30;
+
+        //calculate total mark
+        double totalmark = weightedAssessment1 + weightedAssessment2 + weightedLab + weightedFinal;
 
         //display results
         System.out.println("\n--- CSC3100 Course Grade Calculation ---");
