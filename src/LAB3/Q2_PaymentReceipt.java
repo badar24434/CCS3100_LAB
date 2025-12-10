@@ -105,13 +105,7 @@ public class Q2_PaymentReceipt {
         System.out.print("Unit Price:RM");
         double unitPrice2 = input.nextDouble();
         
-        // Calculate amounts
-        double amount1 = quantity1 * unitPrice1;
-        double amount2 = quantity2 * unitPrice2;
-        double subtotal = amount1 + amount2;
-        double governmentTax = subtotal * 0.06;
-        double serviceCharge = subtotal * 0.10;
-        double total = subtotal + governmentTax + serviceCharge;
+       
         
         // Display Receipt
         System.out.println("\n******************************");
