@@ -100,15 +100,7 @@ public class Q1_ZooNegaraTicketSystem {
                 continueTicket = scanner.next().charAt(0);
                 System.out.println();
                 
-            } while (continueTicket == 'Y' || continueTicket == 'y');
-            
-            // Display receipt total
-            System.out.printf("The total payment for receipt is RM%.2f\n", receiptTotal);
-            
-            // Ask if user wants to process another visitor
-            System.out.print("\nProcess another visitor (Y/N)?: ");
-            continueVisitor = scanner.next().charAt(0);
-            System.out.println();
+            } 
             
         } while (continueVisitor == 'Y' || continueVisitor == 'y');
         
