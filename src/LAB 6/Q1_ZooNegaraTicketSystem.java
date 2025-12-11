@@ -9,6 +9,7 @@ public class Q1_ZooNegaraTicketSystem {
         Scanner scanner = new Scanner(System.in);
         
        
+
         System.out.println("ZOO NEGARA ENTRANCE TICKET PAYMENT SYSTEM\n");
         
         // Outer loop - Process multiple visitors
